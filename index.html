@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/classes.css">
+    <link rel="stylesheet" href="CSS/fonts-colors.css">
+
+    <!-- Icon library -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+<body>
+
+<!-- Header -->
+<header class="header" id="header">
+    <nav class="container nav">
+
+        <a href="#" class="nav__name">Currency conversion</a>
+    </nav>
+</header>
+
+<!-- Home -->
+<section class="home section" id="home">
+    <div class="div__home">
+
+        <div class="data__input">
+            <div class="form__group">
+                <label class="form__group-text" for>Value (Real/BRL)</label>
+                <input type="text" aria-label="value" class="form__control" id="value">
+            </div>
+
+            <i class="uil uil-arrow-right form__group-image"></i>
+
+            <div class="form__group">
+                <label class="form__group-text" for>Converter to</label>
+
+                <select class="form__control" id="currency" aria-label="currency">
+                    <option value="20.81">Argentine Peso</option>
+                    <option value="0.25">Canadian Dollar</option>
+                    <option value="1.22">Chinese Yuan</option>
+                    <option value="761.21">Colombian Peso</option>
+                    <option value="4.65">Cuban Peso</option>
+                    <option value="3.04">Egyptian Pound</option>
+                    <option value="0.17">Euro</option>
+                    <option value="282.85">Iraqi Dinar</option>
+                    <option value="22.28">Japanese Yen</option>
+                    <option value="3.99">Mexican Peso</option>
+                    <option value="20.93">Russian Ruble</option>
+                    <option value="0.19">United States Dollar</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form__group button">
+            <h4 style="color: white" id="convert">Convert</h4>
+        </div>
+
+        <div class="result">
+            <div class="form__group">
+                <label class="form__group-text" for>Result</label>
+                <input type="text" aria-label="result" class="form__control" id="result">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+</body>
+
+<script defer src="Javascript/script.js"></script>
+
+</html>

@@ -1,0 +1,109 @@
+@media screen and (max-width: 972px) and (orientation: portrait) {
+    .div__home {
+        flex-direction: column;
+    }
+
+    .data__input {
+        flex-direction: column;
+    }
+
+    .form__group {
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 972px) and (orientation: portrait) {
+    .div__home {
+        flex-direction: row;
+    }
+
+    .form__group {
+        margin: 80px 30px 80px 30px;
+    }
+}
+
+.button {
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+    height: 40px;
+    width: 100px;
+}
+
+.container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+}
+
+.data__input {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div__home {
+    background-image: linear-gradient(to right top, #051937, #2d2960, #653081, #a72c95, #eb1298);
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.form__control {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    color: #495057;
+    display: block;
+    text-align: center;
+    width: 200px;
+    padding: 0.375rem 0.75rem;
+    font-size: var(--font-medium);
+    font-weight: 400;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    text-align: center;
+}
+
+.form__group-text {
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    font-size: large;
+}
+
+.form__group-image {
+    color: #FFFFFF;
+    padding-top: 25px;
+    font-size: var(--h1-font-size);
+}
+
+.header {
+    background-color: var(--body-color);
+    position: fixed;
+    width: 100%;
+}
+
+.nav {
+    height: var(--header-height);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__name {
+    color: white;
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.result {
+    align-items: center;
+    display: flex;
+    place-content: center;
+}
